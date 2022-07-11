@@ -7,4 +7,4 @@ Support:
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="50" width="50"/> JavaScript
 - And a little of self-knowledge :)
 
-<a href="./logging.html">:Official Page:</a><br>
+<a href="https://simadinisvc.github.io/My_website/">:Official Page:</a><br>
