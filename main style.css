@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&800&display=swap');
+
+*{ /* Reset Default Settings */
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+li { /* remove the points of any element in list */
+    list-style: none;
+}
+
+body { 
+    background: linear-gradient(-40deg, #302f2f, #201b2c);
+}
+
+/* Screen Devision's */
+
+.main-first{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-first{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-first{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Left First Elements */
+
+.left-first > h1{
+    margin-bottom: 7rem;
+    color: #00ff88;
+    text-shadow: 0px 10px 40px #00ff88;
+}
+
+.text-box{
+    background: #302f2f;
+    padding: 3rem;
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 20px;
+    text-align: right;
+    width: 65%;
+    max-height: 50%;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title > h1 {
+    text-align: left;
+    color: #abf3d2;
+    text-shadow: 0px 10px 60px;
+    font-size: 36px;
+    margin-bottom: 0.9rem;
+    box-sizing: content-box;
+}
+
+.title span {
+    padding-top: 0.9rem;
+    text-align: right;
+    color: aliceblue;
+}
+.text-box > p {
+    text-align: left;
+    font-size: 18px;
+    color: #abf3d2;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+
+/* Right First Elements */
+
+.card-box{
+    background: #2f2841;
+    padding: 4rem;
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 20px;
+    text-align: center;
+    color: #abf3d2;
+    text-shadow: 0px 10px 40px;
+}
+
+.profile{
+    border-radius: 50%;
+    margin: 0 auto 2rem 0;
+}
+
+.card-box > h1{
+    font-size: 36px;
+    margin-bottom: 0.9rem;
+}
+
+.card-box > span {
+    font-size: 20px;
+}
+
+.card-box > p {
+    margin-top: 0.4rem;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.social-media{
+    margin: 2rem 1rem 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media > li > a > img {
+    margin-left: 1rem;
+}
