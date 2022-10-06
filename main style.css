@@ -44,14 +44,16 @@ body {
 /* Left First Elements */
 
 .left-first > h1{
-    margin-bottom: 7rem;
+    margin-bottom: 11rem;
+    padding-right: 11rem;
     color: #00ff88;
+    font-size: 40px;
     text-shadow: 0px 10px 40px #00ff88;
 }
 
 .text-box{
     background: #302f2f;
-    padding: 3rem;
+    padding: 4rem;
     box-shadow: 0px 10px 40px #00000056;
     border-radius: 20px;
     text-align: right;
@@ -62,6 +64,7 @@ body {
 .title{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .title > h1 {
@@ -79,7 +82,7 @@ body {
     color: aliceblue;
 }
 .text-box > p {
-    text-align: left;
+    text-align: justify;
     font-size: 18px;
     color: #abf3d2;
 }
